@@ -128,3 +128,62 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+/************************************************
+    TABLET
+ ************************************************/
+@media screen and (max-width:768px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    /* LAYOUT */
+    .container {
+        width: 100%;
+    }
+
+    .row {
+        flex-wrap: wrap;
+    }
+
+    /* LESSONS SECTION */
+    .lessons .col {
+        padding: 0 1rem;
+        width: 50%;
+    }
+
+    .lessons .col img {
+        height: 170px;
+    }
+
+    .card p {
+        font-size: 1rem;
+        margin-bottom: 4rem;
+    }
+
+    /* STEPS SECTION */
+    .steps {
+        margin: 0;
+        padding: 3rem 0 0 0;
+    }
+
+    .steps h2 {
+        margin: 0;
+    }
+
+    .steps .col {
+        width: calc(100%/3);
+    }
+
+    /* WHY US SECTION */
+    .why-us {
+        margin-top: 3rem;
+    }
+
+    .why-us h3 {
+        width: 80%;
+    }
+}
