@@ -187,3 +187,79 @@ img {
         width: 80%;
     }
 }
+
+/************************************************
+    MOBILE
+ ************************************************/
+@media screen and (max-width:480px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    /* LAYOUT */
+    .container {
+        width: 90%;
+    }
+
+    .row {
+        flex-wrap: wrap;
+    }
+
+    /* LESSONS SECTION */
+    .lessons .col {
+        width: 100%;
+    }
+
+    .lessons .col img {
+        height: 250px;
+    }
+
+    .card p {
+        font-size: 1.1rem;
+        margin-bottom: 4rem;
+    }
+
+    /* STEPS SECTION */
+    .steps {
+        margin: 0;
+        padding: 3rem 0 0 0;
+    }
+
+    .steps .col {
+        width: 100%;
+    }
+
+    .steps .col img {
+        height: 250px;
+    }
+
+    /* WHY US SECTION */
+    .why-us {
+        margin-top: 3rem;
+    }
+
+    .why-us img {
+        margin-bottom: 3rem;
+    }
+
+    .why-us .col-left {
+        width: 100%;
+    }
+
+    .why-us .col-right {
+        width: 100%;
+    }
+
+    .why-us li {
+        font-size: 1.1rem;
+    }
+
+    .why-us h3 {
+        width: 80%;
+    }
+
+}
