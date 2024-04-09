@@ -245,7 +245,12 @@ img {
 
     /* WHY US SECTION */
     .why-us {
-        margin-top: 3rem;
+        background-color: #222222;
+        margin-top: 0;
+    }
+
+    .why-us h2 {
+        padding-top: 3rem;
     }
 
     .why-us img {
